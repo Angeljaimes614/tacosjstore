@@ -8,7 +8,7 @@ const productData = {
     tacos: {
         'm1': {
             name: 'YFEN M1',
-            price: 980000,
+            price: 880000,
             originalPrice: 1120000,
             description: 'TACO YFEN PROFESIONAL EN FIBRA DE CARBONO\nFLECHA 12,5 MM FIBRA DE CARBONO 100%\nCULATA MAPLE CANADIENSE\nSISTEMA DE PESAS\nSISTEMA EXTENSIÓN ENROSCABLE\nCASQUILLO MULTICAPAS YFEN\nVIROLA YFEN\nSUPRESOR IMPACTO YFEN\nEXTENSIÓN TELESCÓPICA YFEN\nESTUCHE YFEN',
             image: 'web/tacosbillar/m1/diseno_sin_titulo.png',
@@ -22,14 +22,17 @@ const productData = {
         },
         'M20': {
             name: 'TACO YFEN M20',
-            price: 1220000,
+            price: 1100000,
             originalPrice: 1335000,
             description: 'TACO DE MARCA YFEN EN FIBRA DE CARBONO\nFLECHA DE 12,5 MM EN FIBRA DE CARBONO 100%\nCULATA EN MAPLE CANADIENSE CON AGARRE DE CUERO DE COLOR VERDE\nSISTEMA DE PESAS\nSISTEMA EXTENSIÓN ENROSCABLE\nESTUCHE YFEN\nEXTENSIÓN TELESCÓPICA YFEN',
-            image: 'web/tacosbillar/m20/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m20/diseno_sin_titulo_4.png',
             images: [
-                'web/tacosbillar/m20/diseno_sin_titulo.png',
                 'web/tacosbillar/m20/ww.png',
-                'web/tacosbillar/m20/diseno_sin_titulo_4.png'
+                'web/tacosbillar/m20/diseno_sin_titulo.png',
+                'web/tacosbillar/m20/diseno_sin_titulo_4.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+                
             ],
             category: 'tacos'
         },
@@ -42,16 +45,18 @@ const productData = {
             images: [
                 'web/tacosbillar/m21/diseno_sin_titulo.png',
                 'web/tacosbillar/m21/diseno_sin_titulo_1.png',
-                'web/tacosbillar/m21/Stick Billiard Play Carbon Yfen M4 Diameter.png'
+                'web/tacosbillar/m21/stick_billiard_play_carbon_yfen_m4_diameter.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
             ],
             category: 'tacos'
         },
         'M23': {
             name: 'TACO YFEN M23',
-            price: 1300000,
+            price: 1130000,
             originalPrice: 1450000,
             description: 'TACO YFEN M23 PROFESIONAL\nFIBRA DE CARBONO PREMIUM\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO ELEGANTE Y FUNCIONAL',
-            image: 'web/tacosbillar/m23/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m23/88.png',
             images: [
                 'web/tacosbillar/m23/diseno_sin_titulo.png',
                 'web/tacosbillar/m23/diseno_sin_titulo_1.png',
@@ -61,31 +66,49 @@ const productData = {
         },
         'M29': {
             name: 'TACO YFEN M29',
-            price: 1400000,
-            originalPrice: 1550000,
+            price: 920000,
+            originalPrice: 1150000,
             description: 'TACO YFEN M29 EDICIÓN ESPECIAL\nFIBRA DE CARBONO DE COMPETICIÓN\nFLECHA 12,5 MM ULTRA PRECISA\nCULATA MAPLE CANADIENSE PREMIUM',
-            image: 'web/tacosbillar/m29/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m29/diseno_sin_titulo_2.png',
             images: [
                 'web/tacosbillar/m29/diseno_sin_titulo.png',
                 'web/tacosbillar/m29/diseno_sin_titulo_1.png',
-                'web/tacosbillar/m29/diseno_sin_titulo_2.png'
+                'web/tacosbillar/m29/diseno_sin_titulo_2.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+                
             ],
             category: 'tacos'
         },
         'M2S': {
             name: 'TACO YFEN M2S',
-            price: 1050000,
+            price: 1120000,
             originalPrice: 1200000,
             description: 'TACO YFEN M2S SERIE ESPECIAL\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nACABADO PREMIUM',
-            image: 'web/tacosbillar/m2s/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m2s/a.png',
+            images: [
+                'web/tacosbillar/m2s/diseno_sin_titulo.png',
+                'web/tacosbillar/m2s/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m2s/diseno_sin_titulo_2.png',
+                'web/tacosbillar/m2s/a.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+            ],
             category: 'tacos'
         },
         'M2': {
             name: 'TACO YFEN M2',
-            price: 950000,
+            price: 900000,
             originalPrice: 1100000,
             description: 'TACO YFEN M2 CLÁSICO\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO TRADICIONAL',
             image: 'web/tacosbillar/m2/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/m2/diseno_sin_titulo.png',
+                'web/tacosbillar/m2/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m2/diseno_sin_titulo_2.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+            ],
             category: 'tacos'
         },
         'M6black': {
@@ -94,46 +117,98 @@ const productData = {
             originalPrice: 1320000,
             description: 'TACO YFEN M6 EDICIÓN NEGRA\nFIBRA DE CARBONO NEGRA\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO ELEGANTE EN NEGRO',
             image: 'web/tacosbillar/m6black/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/m6black/diseno_sin_titulo.png',
+                'web/tacosbillar/m6black/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m6black/diseno_sin_titulo_2.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+            ],
             category: 'tacos'
         },
         'predator_fs': {
             name: 'PREDATOR FS',
-            price: 2500000,
-            originalPrice: 2800000,
+            price: 430000,
+            originalPrice: 600000,
             description: 'TACO PREDATOR FS PROFESIONAL\nTECNOLOGÍA PREDATOR\nFLECHA DE ALTA PRECISIÓN\nCULATA PREMIUM\nPARA JUGADORES PROFESIONALES',
-            image: 'web/tacosbillar/predator_fs/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/predator_fs/diseno_sin_titnulo_1.png',
+            images: [
+               'web/tacosbillar/predator_fs/diseno_sin_titnulo_1.png',
+               'web/tacosbillar/predator_fs/diseno_sin_titulo_3.png',
+               'web/tacosbillar/predator_fs/diseno_sin_titulo.png',
+               'web/accesorios/estuches/predator/diseno_sin_titulo.png'
+            ],
             category: 'tacos'
         },
         'predator_p3': {
             name: 'PREDATOR P3',
-            price: 2200000,
-            originalPrice: 2500000,
+            price: 400000,
+            originalPrice: 600000,
             description: 'TACO PREDATOR P3\nTECNOLOGÍA AVANZADA PREDATOR\nFLECHA DE COMPETICIÓN\nCULATA DE ALTA CALIDAD\nRENDIMIENTO SUPERIOR',
-            image: 'web/tacosbillar/predator_p3/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/predator_p3/diseno_sin_titulo_3.png',
+            images: [
+                'web/tacosbillar/predator_p3/diseno_sin_titulo.png',
+                'web/tacosbillar/predator_p3/diseno_sin_titulo_1.png',
+                'web/tacosbillar/predator_p3/diseno_sin_titulo_3.png',
+                'web/accesorios/estuches/predator/diseno_sin_titulo.png'
+            ],
+                
             category: 'tacos'
         },
         'predator_king': {
             name: 'PREDATOR KING',
-            price: 3000000,
-            originalPrice: 3300000,
+            price: 650000,
+            originalPrice: 800000,
             description: 'TACO PREDATOR KING EDICIÓN LIMITADA\nLA MÁXIMA EXPRESIÓN DE PREDATOR\nFLECHA ULTRA PRECISA\nCULATA PREMIUM\nPARA CAMPEONES',
             image: 'web/tacosbillar/predator_king/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/predator_king/diseno_sin_titulo.png',
+                'web/tacosbillar/predator_king/diseno_sin_titulo_1.png',
+                'web/tacosbillar/predator_king/diseno_sin_titulo_2.png',
+                'web/accesorios/estuches/predator/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/num2/diseno_sin_titulo.png'
+                
+            ],
             category: 'tacos'
         },
         'taco_salto': {
             name: 'TACO DE SALTO Y SALIDA YFEN',
-            price: 850000,
+            price: 670000,
             originalPrice: 950000,
             description: 'TACO ESPECIALIZADO PARA SALTO Y SALIDA\nDISEÑO ESPECÍFICO YFEN\nMANGO ERGONÓMICO\nPESO OPTIMIZADO\nPARA TÉCNICAS ESPECIALES',
-            image: 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno88sin_titulo.png',
+            images: [
+                'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo.png',
+                'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_1.png',
+                'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_2.png',
+                'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno88sin_titulo.png',
+               'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_4.png',
+               'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_5.png',
+               'web/accesorios/estuches/vanqs/diseno_sin_titulo_1.png'
+                
+
+            ],
             category: 'tacos'
         },
         'm10': {
             name: 'TACO YFEN M10',
-            price: 1350000,
+            price: 1130000,
             originalPrice: 1500000,
             description: 'TACO YFEN M10 AVANZADO\nFIBRA DE CARBONO SUPERIOR\nFLECHA 12,5 MM PRECISIÓN\nCULATA MAPLE CANADIENSE\nTECNOLOGÍA AVANZADA',
             image: 'web/tacosbillar/m10/diseno_sin_titulo.png',
+            images: [   
+                'web/tacosbillar/m10/diseno_sin_55.png',
+                'web/tacosbillar/m10/diseno_sin_ti66tulo.png',
+                'web/tacosbillar/m10/diseno_sin_titulo.png',
+                'web/tacosbillar/m10/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m10/diseno_sin_titulo_2.png',
+                'web/tacosbillar/m10/diseno_sin_titulo_3.png',
+                'web/tacosbillar/m10/diseno_sin_titulo_4.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+
+            ],
+                
             category: 'tacos'
         },
         'm19': {
@@ -141,57 +216,288 @@ const productData = {
             price: 1100000,
             originalPrice: 1250000,
             description: 'TACO YFEN M19\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nCALIDAD PROFESIONAL',
-            image: 'web/tacosbillar/m19/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m19/diseno_sin_titulo_1.png',
+            images: [
+                'web/tacosbillar/m19/diseno_sin_titulo.png',
+                'web/tacosbillar/m19/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m19/456.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+                
+            ],
             category: 'tacos'
         },
         'm3': {
             name: 'TACO YFEN M3',
-            price: 1000000,
+            price: 880000,
             originalPrice: 1150000,
             description: 'TACO YFEN M3\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO CLÁSICO',
-            image: 'web/tacosbillar/m3/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m3/diseno_sin_titulo_2.png',
+            images: [
+                'web/tacosbillar/m3/diseno_sin_titulo.png',
+                'web/tacosbillar/m3/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m3/diseno_sin_titulo_2.png',
+                'web/tacosbillar/m3/diseno_sin_titulo_3.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+
+            ],
             category: 'tacos'
         },
         'm3s': {
             name: 'TACO YFEN M3S',
-            price: 1080000,
+            price: 1120000,
             originalPrice: 1230000,
             description: 'TACO YFEN M3S SERIE ESPECIAL\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nACABADO ESPECIAL',
             image: 'web/tacosbillar/m3s/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/m3s/diseno_sin_titulo.png',
+                'web/tacosbillar/m3s/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m3s/diseno_sin_titulo_2.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+            ],
             category: 'tacos'
         },
         'm4': {
             name: 'TACO YFEN M4',
-            price: 1120000,
+            price: 890000,
             originalPrice: 1270000,
             description: 'TACO YFEN M4\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nRENDIMIENTO SUPERIOR',
-            image: 'web/tacosbillar/m4/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/m4/diseno_sin_titulo_1.png',
+            images: [
+                'web/tacosbillar/m4/diseno_sin_titulo.png',
+                'web/tacosbillar/m4/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m4/diseno_sin_titulo_2.png',
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+
+            ],
+
             category: 'tacos'
         },
         'm7': {
             name: 'TACO YFEN M7',
-            price: 1250000,
+            price: 1120000,
             originalPrice: 1400000,
             description: 'TACO YFEN M7\nFIBRA DE CARBONO AVANZADA\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nTECNOLOGÍA SUPERIOR',
             image: 'web/tacosbillar/m7/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/m7/diseno_sin_titulo.png',
+                'web/tacosbillar/m7/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m7/diseno_sin_titulo_2.png',
+                'web/tacosbillar/m7/diseno_44titulo.png',
+                'web/tacosbillar/m7/diseno_5titulo.png',
+                'web/tacosbillar/m7/diseno_si55n_titulo_3.png',
+                'web/tacosbillar/m7/diseno_sin_ti65tulo.png',
+                'web/tacosbillar/m7/diseno_srthgin_titulo.png',
+
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+            ],
             category: 'tacos'
         },
         'm9': {
             name: 'TACO YFEN M9',
-            price: 1320000,
+            price: 1120000,
             originalPrice: 1470000,
             description: 'TACO YFEN M9\nFIBRA DE CARBONO PREMIUM\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nCALIDAD EXCEPCIONAL',
             image: 'web/tacosbillar/m9/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/m9/diseno_sin_titulo.png',
+                'web/tacosbillar/m9/diseno_sin_titulo_1.png',
+                'web/tacosbillar/m9/diseno_sin_titulo_2.png',
+                'web/tacosbillar/m9/diseno_sin_titulo_3.png',
+                  'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
+                'web/accesorios/extensiones/yfen/diseno_sin_titulo_1.png'
+               
+            ],
             category: 'tacos'
         },
         'tiger': {
             name: 'TACO TIGER',
-            price: 1800000,
-            originalPrice: 2000000,
+            price: 350000,
+            originalPrice: 600000,
             description: 'TACO TIGER PROFESIONAL\nDISEÑO TIGER EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/tiger/diseno_sin_titulo.png',
+            images: [
+                'web/tacosbillar/tiger/diseno_sin_titulo.png',
+                'web/tacosbillar/tiger/diseno_sin_titulo_1.png',
+                'web/tacosbillar/tiger/diseno_sin_titulo_2.png',
+                'web/tacosbillar/tiger/diseno_sin_titulo_3.png',
+                'web/accesorios/estuches/predator/diseno_sin_titulo.png'
+
+            ],
             category: 'tacos'
-        }
+        },
+
+        'crical A': {
+            name: 'TACOS CRICAL A',
+            price:850000,
+            originalPrice:1200000,
+            description: 'TACO TIGER PROFESIONAL\nDISEÑO CRICAL EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image: 'web/tacosbillar/cricalA850/cricalA850.png',
+            images: [
+                'web/tacosbillar/cricalA850/cricalA850.png',
+                'web/tacosbillar/cricalA850/Diseño sin título (1).png',
+                'web/tacosbillar/cricalA850/Diseño sin título (2).png',
+                'web/tacosbillar/cricalA850/Diseño sin título (5).png',
+                'web/accesorios/estuches/predator/diseno_sin_titulo.png'
+            
+            ],
+            category: 'tacos'
+        
+        },
+
+        'Taco Generico':{
+            name:'TACO EN GRAFITO',
+            price:350000,
+            originalPrice:550000,
+            description: 'TACO EN GRAFITO\nDISEÑO TACO EN GRAFITO\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/dosmarcas/Diseño sin título (1).png',
+            images: [
+                'web/tacosbillar/dosmarcas/Diseño sin título (1).png',
+                'web/tacosbillar/dosmarcas/Diseño sin título (2).png',
+                'web/tacosbillar/dosmarcas/Diseño sin título (3).png',
+                'web/tacosbillar/dosmarcas/Diseño sin título.png'
+                
+            ],
+            category:'tacos'
+        },
+
+        'MCDERMOTTAA':{
+            name:'MCDERMOTT AA',
+            price:650000,
+            originalPrice:900000,
+            description: 'TACO MCDERMOTT AA\nDISEÑO MCDERMOTT AA\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título (1).png',
+            images: [
+                'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título.png',
+                'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título (1).png',
+                'web/tacosbillar/MCDERMOTTA650.000conelestuche/MCDERMOTT A 650.000 con el estuche (1).png',
+                'web/tacosbillar/MCDERMOTTA650.000conelestuche/MCDERMOTT A 650.000 con el estuche.png',
+
+
+            ],
+            category:'tacos'
+        },
+
+
+        'predator':{
+            name:'PREDATOR',
+            price:530000,
+            originalPrice:720000,
+            description: 'TACO PREDATOR\nDISEÑO PREDATOR\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/predator530estuche/Diseño sin título (3).png',
+            images: [
+                'web/tacosbillar/predator530estuche/Diseño sin título (3).png'
+
+            ],
+            category:'tacos'
+        
+        },
+
+        'predator650':{
+            name:'PREDATOR 650',
+            price:650000,
+            originalPrice:900000,
+            description: 'TACO PREDATOR 650\nDISEÑO PREDATOR 650\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/predator650/Diseño sin título (1).png',
+            images: [
+                'web/tacosbillar/predator650/Diseño sin título (1).png',
+                'web/tacosbillar/predator650/Diseño sin título (2).png',
+                'web/tacosbillar/predator650/Diseño sin título (3).png',
+                'web/tacosbillar/predator650/Diseño sin título (4).png',
+                'web/tacosbillar/predator650/Diseño sin título.png',
+                'web/accesorios/estuches/predator/diseno_sin_titulo.png'
+
+            ],
+            category:'tacos'
+        },
+            
+        
+
+        'predatorsalto':{
+            name:'PREDATOR SALTOS',
+            price:350000,
+            originalPrice:520000,
+            description: 'TACO PREDATOR SALTOS\nDISEÑO PREDATOR SALTOS\nTACO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/predatordesalto350estuche/Diseño sin título (1).png',
+            images:[
+                'web/tacosbillar/predatordesalto350estuche/Diseño sin título.png',
+                'web/tacosbillar/predatordesalto350estuche/Diseño sin título (1).png',
+                'web/tacosbillar/predatordesalto350estuche/Diseño sin título (2).png'
+           
+            ],
+            category:'tacos'
+        
+        },
+         
+        'vanqsliso':{
+            name:'VANQ LISO',
+            price:600000,
+            originalPrice:800000,
+            description: 'TACO VANQ LISO\nDISEÑO VANQ LISO\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/vanqs/Diseño sin título (1).png',
+            images: [
+                'web/tacosbillar/vanqs/Diseño sin título (1).png',
+                'web/tacosbillar/vanqs/Diseño sin título (2).png',
+                'web/tacosbillar/vanqs/Diseño sin título (3).png',
+                'web/tacosbillar/vanqs/Diseño sin título (4).png',
+                'web/tacosbillar/vanqs/Diseño sin título (5).png',
+                'web/tacosbillar/vanqs/Diseño sin título (6).png',
+                'web/tacosbillar/vanqs/Diseño sin título (7).png',
+                'web/tacosbillar/vanqs/Diseño sin título.png',
+                'web/accesorios/estuches/vanq/Diseño sin título.png',
+                'web/accesorios/extensiones/num5/Diseño sin título.png',
+
+
+
+            ],
+            category:'tacos'
+        },
+
+        'vanqs cuero': {
+            name: 'VANQS CUERO',
+            price: 650000,
+            originalPrice: 850000,
+            description: 'TACO VANQS CUERO\nDISEÑO VANQS CUERO\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM \nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image: 'web/tacosbillar/vanqscuero/Diseño sin título (1).png',
+            images: [
+                'web/tacosbillar/vanqscuero/Diseño sin título (1).png',
+                'web/tacosbillar/vanqscuero/Diseño sin título (2).png',
+                'web/tacosbillar/vanqscuero/Diseño sin título (4).png',
+                'web/tacosbillar/vanqscuero/Diseño sin título.png',
+                'web/accesorios/estuches/vanq/Diseño sin título.png',
+                'web/accesorios/extensiones/num5/Diseño sin título.png',
+            ],
+            category: 'tacos'
+        
+
+        },
+
+        'vanqsdobleflcha':{
+            name:'VANQS DOBLE FLECHA',
+            price:780000,
+            originalPrice:890000,
+            description: 'TACO VANQ DOBLE FLECHA\nDISEÑO VANQ DOBLE FLECHA\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            image:'web/tacosbillar/vanqsdobleflecha/Diseño sin título.png',
+            images: [
+                'web/tacosbillar/vanqsdobleflecha/Diseño sin título (1).png',
+                'web/tacosbillar/vanqsdobleflecha/Diseño sin título (2).png',
+                'web/tacosbillar/vanqsdobleflecha/Diseño sin título (3).png',
+                'web/tacosbillar/vanqsdobleflecha/Diseño sin título (8).png',
+                'web/tacosbillar/vanqsdobleflecha/Diseño sin título.png',
+                'web/tacosbillar/vanqsdobleflecha/vanqsdobleflecha.png',
+                'web/accesorios/estuches/doble_flecha/diseno_sin_titulo.png',
+                'web/accesorios/estuches/doble_flecha/diseno_sin_titulo_1.png'
+                
+
+
+
+            ],
+            category:'tacos'
+        },
     },
     accesorios: {
         'bolas_entrenamiento': {
@@ -212,7 +518,7 @@ const productData = {
         },
         'estuche_diamond': {
             name: 'Estuche Diamond',
-            price: 180000,
+            price: 125000,
             originalPrice: 210000,
             description: 'Estuche Diamond premium\nMateriales de lujo\nProtección máxima\nDiseño sofisticado',
             image: 'web/accesorios/estuches/diamond/diseno_sin_titulo_1.png',
@@ -220,8 +526,8 @@ const productData = {
         },
         'estuche_yfen': {
             name: 'Estuche Yfen',
-            price: 100000,
-            originalPrice: 120000,
+            price: 150000,
+            originalPrice: 190000,
             description: 'Estuche Yfen original\nCalidad garantizada\nDiseño funcional\nProtección confiable',
             image: 'web/accesorios/estuches/yfen/diseno_sin_titulo.png',
             category: 'accesorios'
@@ -263,7 +569,7 @@ const productData = {
         },
         'accesorio_ibs': {
             name: 'Accesorio IBS',
-            price: 35000,
+            price: 30000,
             originalPrice: 40000,
             description: 'Accesorio profesional IBS\nCalidad premium\nDiseño ergonómico\nFácil instalación\nCompatible con todos los tacos',
             image: 'web/accesorios/ibs/diseno_sin_titulo.png',
@@ -272,24 +578,24 @@ const productData = {
         },
         'pica_casquillos_3en1': {
             name: 'Pica Casquillos 3 en 1',
-            price: 35000,
-            originalPrice: 45000,
+            price: 60000,
+            originalPrice: 95000,
             description: 'Herramienta 3 en 1\nPica casquillos multifuncional\nDiseño compacto\nFácil de usar',
             image: 'web/accesorios/pica_casquillos/3_en_1/diseno_sin_titulo_1.png',
             category: 'accesorios'
         },
         'porta_tizas': {
             name: 'Porta Tizas',
-            price: 25000,
-            originalPrice: 30000,
+            price: 75000,
+            originalPrice: 110000,
             description: 'Porta tizas práctico\nDiseño funcional\nFácil acceso\nMaterial duradero',
             image: 'web/accesorios/portatizas/diseno_sin_titulo.png',
             category: 'accesorios'
         },
         'tizas': {
             name: 'Tizas Profesionales',
-            price: 15000,
-            originalPrice: 20000,
+            price: 20000,
+            originalPrice: 40000,
             description: 'Tizas de alta calidad\nMejor adherencia\nDuración superior\nPack de 12 unidades',
             image: 'web/accesorios/tizas/diseno_sin_titulo.png',
             category: 'accesorios'
