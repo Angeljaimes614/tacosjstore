@@ -175,6 +175,7 @@ const productData = {
             image: 'web/tacosbillar/predator_king/diseno_sin_titulo.png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (12).png',
+                 'web/tacosbillar/completos/Diseño sin título (14).png',
                 'web/tacosbillar/predator_king/diseno_sin_titulo.png',
                 'web/tacosbillar/predator_king/diseno_sin_titulo_1.png',
                 'web/tacosbillar/predator_king/diseno_sin_titulo_2.png',
@@ -192,14 +193,15 @@ const productData = {
             image: 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno88sin_titulo.png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (34).png',
+                'web/tacosbillar/completos/Diseño sin título (35).png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo.png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_1.png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_2.png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno88sin_titulo.png',
                'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_4.png',
                'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_5.png',
-               'web/accesorios/estuches/vanqs/diseno_sin_titulo_1.png'
-                
+                'web/accesorios/estuches/yfen/diseno_sin_titulo.png'
+               
 
             ],
             category: 'tacos'
@@ -212,6 +214,7 @@ const productData = {
             image: 'web/tacosbillar/m10/diseno_sin_titulo.png',
             images: [   
                 'web/tacosbillar/completos/Diseño sin título (48).png',
+                 'web/tacosbillar/completos/Diseño sin título (47).png',
                 'web/tacosbillar/m10/diseno_sin_55.png',
                 'web/tacosbillar/m10/diseno_sin_ti66tulo.png',
                 'web/tacosbillar/m10/diseno_sin_titulo.png',
@@ -361,7 +364,7 @@ const productData = {
             name: 'TACOS CRICAL A',
             price:850000,
             originalPrice:1200000,
-            description: 'TACO TIGER PROFESIONAL\nDISEÑO CRICAL EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            description: 'TACO CRICAL PROFESIONAL\nDISEÑO CRICAL EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/cricalA850/cricalA850.png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (8).png',
@@ -404,7 +407,7 @@ const productData = {
             image:'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título (1).png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título.png',
-                'web/tacosbillar/completos/Diseño sin título.png',
+                 'web/tacosbillar/completos/Diseño sin título (5).png',
                 'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título.png',
                 'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título (1).png',
                 'web/tacosbillar/MCDERMOTTA650.000conelestuche/MCDERMOTT A 650.000 con el estuche (1).png',
@@ -420,7 +423,7 @@ const productData = {
             name:'PREDATOR',
             price:530000,
             originalPrice:720000,
-            description: 'TACO PREDATOR\nDISEÑO PREDATOR\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            description: 'TACO PREDATOR\nDISEÑO PREDATOR\n RECUBRIMIENTO DE FIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/predator530estuche/Diseño sin título (3).png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (19).png',
@@ -432,7 +435,7 @@ const productData = {
         },
 
         'predator650':{
-            name:'PREDATOR 650',
+            name:'PREDATOR ',
             price:650000,
             originalPrice:900000,
             description: 'TACO PREDATOR 650\nDISEÑO PREDATOR 650\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
@@ -454,7 +457,7 @@ const productData = {
         
 
         'predatorsalto':{
-            name:'PREDATOR SALTOS',
+            name:'PREDATOR DE SALTO',
             price:350000,
             originalPrice:520000,
             description: 'TACO PREDATOR SALTOS\nDISEÑO PREDATOR SALTOS\nTACO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
@@ -498,7 +501,7 @@ const productData = {
         },
 
         'vanqs cuero': {
-            name: 'VANQS CUERO',
+            name: 'VANQS AGARRE DECUERO',
             price: 650000,
             originalPrice: 850000,
             description: 'TACO VANQS CUERO\nDISEÑO VANQS CUERO\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM \nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
@@ -510,8 +513,9 @@ const productData = {
                 'web/tacosbillar/vanqscuero/Diseño sin título (2).png',
                 'web/tacosbillar/vanqscuero/Diseño sin título (4).png',
                 'web/tacosbillar/vanqscuero/Diseño sin título.png',
-                'web/accesorios/estuches/vanq/Diseño sin título.png',
-                'web/accesorios/extensiones/num5/Diseño sin título.png',
+                 'web/accesorios/extensiones/num3/diseno_sin_titulo_2.png',
+                
+                
             ],
             category: 'tacos'
         
@@ -522,7 +526,7 @@ const productData = {
             name:'VANQS DOBLE FLECHA',
             price:780000,
             originalPrice:890000,
-            description: 'TACO VANQ DOBLE FLECHA\nDISEÑO VANQ DOBLE FLECHA\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            description: 'TACO VANQ DOBLE FLECHA\nDISEÑO VANQ DOBLE FLECHA\nUNA FLECHA 100% EN FIBRA DE CARBONO \nLA OTRA EN MAPLE CANDIENSE\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/vanqsdobleflecha/Diseño sin título.png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (23).png',
