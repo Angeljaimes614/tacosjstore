@@ -11,8 +11,9 @@ const productData = {
             price: 880000,
             originalPrice: 1120000,
             description: 'TACO YFEN PROFESIONAL EN FIBRA DE CARBONO\nFLECHA 12,5 MM FIBRA DE CARBONO 100%\nCULATA MAPLE CANADIENSE\nSISTEMA DE PESAS\nSISTEMA EXTENSIÓN ENROSCABLE\nCASQUILLO MULTICAPAS YFEN\nVIROLA YFEN\nSUPRESOR IMPACTO YFEN\nEXTENSIÓN TELESCÓPICA YFEN\nESTUCHE YFEN',
-            image: 'web/tacosbillar/m1/diseno_sin_titulo.png',
+            image: 'web/tacosbillar/completos/Diseño sin título (40).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (40).png',
                 'web/tacosbillar/m1/diseno_sin_titulo.png',
                 'web/tacosbillar/m1/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m1/diseno_sin_titulo_2.png',
@@ -27,6 +28,7 @@ const productData = {
             description: 'TACO DE MARCA YFEN EN FIBRA DE CARBONO\nFLECHA DE 12,5 MM EN FIBRA DE CARBONO 100%\nCULATA EN MAPLE CANADIENSE CON AGARRE DE CUERO DE COLOR VERDE\nSISTEMA DE PESAS\nSISTEMA EXTENSIÓN ENROSCABLE\nESTUCHE YFEN\nEXTENSIÓN TELESCÓPICA YFEN',
             image: 'web/tacosbillar/m20/diseno_sin_titulo_4.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (52).png',
                 'web/tacosbillar/m20/ww.png',
                 'web/tacosbillar/m20/diseno_sin_titulo.png',
                 'web/tacosbillar/m20/diseno_sin_titulo_4.png',
@@ -43,6 +45,7 @@ const productData = {
             description: 'TACO PROFESIONAL YFEN M21\nFIBRA DE CARBONO DE ALTA CALIDAD\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nSISTEMA DE PESAS AJUSTABLE',
             image: 'web/tacosbillar/m21/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (51).png',
                 'web/tacosbillar/m21/diseno_sin_titulo.png',
                 'web/tacosbillar/m21/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m21/stick_billiard_play_carbon_yfen_m4_diameter.png',
@@ -58,6 +61,7 @@ const productData = {
             description: 'TACO YFEN M23 PROFESIONAL\nFIBRA DE CARBONO PREMIUM\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO ELEGANTE Y FUNCIONAL',
             image: 'web/tacosbillar/m23/88.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (54).png',
                 'web/tacosbillar/m23/diseno_sin_titulo.png',
                 'web/tacosbillar/m23/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m23/88.png'
@@ -71,6 +75,7 @@ const productData = {
             description: 'TACO YFEN M29 EDICIÓN ESPECIAL\nFIBRA DE CARBONO DE COMPETICIÓN\nFLECHA 12,5 MM ULTRA PRECISA\nCULATA MAPLE CANADIENSE PREMIUM',
             image: 'web/tacosbillar/m29/diseno_sin_titulo_2.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (36).png',
                 'web/tacosbillar/m29/diseno_sin_titulo.png',
                 'web/tacosbillar/m29/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m29/diseno_sin_titulo_2.png',
@@ -87,6 +92,7 @@ const productData = {
             description: 'TACO YFEN M2S SERIE ESPECIAL\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nACABADO PREMIUM',
             image: 'web/tacosbillar/m2s/a.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (53).png',
                 'web/tacosbillar/m2s/diseno_sin_titulo.png',
                 'web/tacosbillar/m2s/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m2s/diseno_sin_titulo_2.png',
@@ -103,6 +109,8 @@ const productData = {
             description: 'TACO YFEN M2 CLÁSICO\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO TRADICIONAL',
             image: 'web/tacosbillar/m2/diseno_sin_titulo.png',
             images: [
+
+                'web/tacosbillar/completos/Diseño sin título (37).png',
                 'web/tacosbillar/m2/diseno_sin_titulo.png',
                 'web/tacosbillar/m2/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m2/diseno_sin_titulo_2.png',
@@ -118,6 +126,7 @@ const productData = {
             description: 'TACO YFEN M6 EDICIÓN NEGRA\nFIBRA DE CARBONO NEGRA\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO ELEGANTE EN NEGRO',
             image: 'web/tacosbillar/m6black/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (54).png',
                 'web/tacosbillar/m6black/diseno_sin_titulo.png',
                 'web/tacosbillar/m6black/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m6black/diseno_sin_titulo_2.png',
@@ -133,6 +142,8 @@ const productData = {
             description: 'TACO PREDATOR FS PROFESIONAL\nTECNOLOGÍA PREDATOR\nFLECHA DE ALTA PRECISIÓN\nCULATA PREMIUM\nPARA JUGADORES PROFESIONALES',
             image: 'web/tacosbillar/predator_fs/diseno_sin_titnulo_1.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (20).png',
+                'web/tacosbillar/completos/Diseño sin título (21).png',
                'web/tacosbillar/predator_fs/diseno_sin_titnulo_1.png',
                'web/tacosbillar/predator_fs/diseno_sin_titulo_3.png',
                'web/tacosbillar/predator_fs/diseno_sin_titulo.png',
@@ -147,6 +158,7 @@ const productData = {
             description: 'TACO PREDATOR P3\nTECNOLOGÍA AVANZADA PREDATOR\nFLECHA DE COMPETICIÓN\nCULATA DE ALTA CALIDAD\nRENDIMIENTO SUPERIOR',
             image: 'web/tacosbillar/predator_p3/diseno_sin_titulo_3.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (22).png',
                 'web/tacosbillar/predator_p3/diseno_sin_titulo.png',
                 'web/tacosbillar/predator_p3/diseno_sin_titulo_1.png',
                 'web/tacosbillar/predator_p3/diseno_sin_titulo_3.png',
@@ -162,6 +174,7 @@ const productData = {
             description: 'TACO PREDATOR KING EDICIÓN LIMITADA\nLA MÁXIMA EXPRESIÓN DE PREDATOR\nFLECHA ULTRA PRECISA\nCULATA PREMIUM\nPARA CAMPEONES',
             image: 'web/tacosbillar/predator_king/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (12).png',
                 'web/tacosbillar/predator_king/diseno_sin_titulo.png',
                 'web/tacosbillar/predator_king/diseno_sin_titulo_1.png',
                 'web/tacosbillar/predator_king/diseno_sin_titulo_2.png',
@@ -178,6 +191,7 @@ const productData = {
             description: 'TACO ESPECIALIZADO PARA SALTO Y SALIDA\nDISEÑO ESPECÍFICO YFEN\nMANGO ERGONÓMICO\nPESO OPTIMIZADO\nPARA TÉCNICAS ESPECIALES',
             image: 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno88sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (34).png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo.png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_1.png',
                 'web/tacosbillar/taco_de_salto_y_salida_yfen/diseno_sin_titulo_2.png',
@@ -197,6 +211,7 @@ const productData = {
             description: 'TACO YFEN M10 AVANZADO\nFIBRA DE CARBONO SUPERIOR\nFLECHA 12,5 MM PRECISIÓN\nCULATA MAPLE CANADIENSE\nTECNOLOGÍA AVANZADA',
             image: 'web/tacosbillar/m10/diseno_sin_titulo.png',
             images: [   
+                'web/tacosbillar/completos/Diseño sin título (48).png',
                 'web/tacosbillar/m10/diseno_sin_55.png',
                 'web/tacosbillar/m10/diseno_sin_ti66tulo.png',
                 'web/tacosbillar/m10/diseno_sin_titulo.png',
@@ -218,6 +233,7 @@ const productData = {
             description: 'TACO YFEN M19\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nCALIDAD PROFESIONAL',
             image: 'web/tacosbillar/m19/diseno_sin_titulo_1.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (50).png',
                 'web/tacosbillar/m19/diseno_sin_titulo.png',
                 'web/tacosbillar/m19/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m19/456.png',
@@ -234,6 +250,7 @@ const productData = {
             description: 'TACO YFEN M3\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nDISEÑO CLÁSICO',
             image: 'web/tacosbillar/m3/diseno_sin_titulo_2.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (38).png',
                 'web/tacosbillar/m3/diseno_sin_titulo.png',
                 'web/tacosbillar/m3/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m3/diseno_sin_titulo_2.png',
@@ -251,6 +268,7 @@ const productData = {
             description: 'TACO YFEN M3S SERIE ESPECIAL\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nACABADO ESPECIAL',
             image: 'web/tacosbillar/m3s/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (42).png',
                 'web/tacosbillar/m3s/diseno_sin_titulo.png',
                 'web/tacosbillar/m3s/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m3s/diseno_sin_titulo_2.png',
@@ -266,6 +284,7 @@ const productData = {
             description: 'TACO YFEN M4\nFIBRA DE CARBONO\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nRENDIMIENTO SUPERIOR',
             image: 'web/tacosbillar/m4/diseno_sin_titulo_1.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (39).png',
                 'web/tacosbillar/m4/diseno_sin_titulo.png',
                 'web/tacosbillar/m4/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m4/diseno_sin_titulo_2.png',
@@ -283,6 +302,9 @@ const productData = {
             description: 'TACO YFEN M7\nFIBRA DE CARBONO AVANZADA\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nTECNOLOGÍA SUPERIOR',
             image: 'web/tacosbillar/m7/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (43).png',
+                'web/tacosbillar/completos/Diseño sin título (44).png',
+                'web/tacosbillar/completos/Diseño sin título (45).png',
                 'web/tacosbillar/m7/diseno_sin_titulo.png',
                 'web/tacosbillar/m7/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m7/diseno_sin_titulo_2.png',
@@ -304,6 +326,7 @@ const productData = {
             description: 'TACO YFEN M9\nFIBRA DE CARBONO PREMIUM\nFLECHA 12,5 MM\nCULATA MAPLE CANADIENSE\nCALIDAD EXCEPCIONAL',
             image: 'web/tacosbillar/m9/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (46).png',
                 'web/tacosbillar/m9/diseno_sin_titulo.png',
                 'web/tacosbillar/m9/diseno_sin_titulo_1.png',
                 'web/tacosbillar/m9/diseno_sin_titulo_2.png',
@@ -321,6 +344,9 @@ const productData = {
             description: 'TACO TIGER PROFESIONAL\nDISEÑO TIGER EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/tiger/diseno_sin_titulo.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (10).png',
+                'web/tacosbillar/completos/Diseño sin título (11).png',
+                'web/tacosbillar/completos/Diseño sin título (13).png',
                 'web/tacosbillar/tiger/diseno_sin_titulo.png',
                 'web/tacosbillar/tiger/diseno_sin_titulo_1.png',
                 'web/tacosbillar/tiger/diseno_sin_titulo_2.png',
@@ -338,6 +364,7 @@ const productData = {
             description: 'TACO TIGER PROFESIONAL\nDISEÑO CRICAL EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/cricalA850/cricalA850.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (8).png',
                 'web/tacosbillar/cricalA850/cricalA850.png',
                 'web/tacosbillar/cricalA850/Diseño sin título (1).png',
                 'web/tacosbillar/cricalA850/Diseño sin título (2).png',
@@ -356,6 +383,10 @@ const productData = {
             description: 'TACO EN GRAFITO\nDISEÑO TACO EN GRAFITO\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/dosmarcas/Diseño sin título (1).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (1).png',
+                'web/tacosbillar/completos/Diseño sin título (2).png',
+                'web/tacosbillar/completos/Diseño sin título (3).png',
+                'web/tacosbillar/completos/Diseño sin título (4).png',
                 'web/tacosbillar/dosmarcas/Diseño sin título (1).png',
                 'web/tacosbillar/dosmarcas/Diseño sin título (2).png',
                 'web/tacosbillar/dosmarcas/Diseño sin título (3).png',
@@ -372,6 +403,8 @@ const productData = {
             description: 'TACO MCDERMOTT AA\nDISEÑO MCDERMOTT AA\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título (1).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título.png',
+                'web/tacosbillar/completos/Diseño sin título.png',
                 'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título.png',
                 'web/tacosbillar/MCDERMOTTA650.000conelestuche/Diseño sin título (1).png',
                 'web/tacosbillar/MCDERMOTTA650.000conelestuche/MCDERMOTT A 650.000 con el estuche (1).png',
@@ -390,6 +423,7 @@ const productData = {
             description: 'TACO PREDATOR\nDISEÑO PREDATOR\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/predator530estuche/Diseño sin título (3).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (19).png',
                 'web/tacosbillar/predator530estuche/Diseño sin título (3).png'
 
             ],
@@ -404,6 +438,8 @@ const productData = {
             description: 'TACO PREDATOR 650\nDISEÑO PREDATOR 650\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/predator650/Diseño sin título (1).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (15).png',
+                'web/tacosbillar/completos/Diseño sin título (16).png',
                 'web/tacosbillar/predator650/Diseño sin título (1).png',
                 'web/tacosbillar/predator650/Diseño sin título (2).png',
                 'web/tacosbillar/predator650/Diseño sin título (3).png',
@@ -424,6 +460,7 @@ const productData = {
             description: 'TACO PREDATOR SALTOS\nDISEÑO PREDATOR SALTOS\nTACO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/predatordesalto350estuche/Diseño sin título (1).png',
             images:[
+                'web/tacosbillar/completos/Diseño sin título (18).png',
                 'web/tacosbillar/predatordesalto350estuche/Diseño sin título.png',
                 'web/tacosbillar/predatordesalto350estuche/Diseño sin título (1).png',
                 'web/tacosbillar/predatordesalto350estuche/Diseño sin título (2).png'
@@ -440,6 +477,10 @@ const productData = {
             description: 'TACO VANQ LISO\nDISEÑO VANQ LISO\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/vanqs/Diseño sin título (1).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (30).png',
+                'web/tacosbillar/completos/Diseño sin título (31).png',
+                'web/tacosbillar/completos/Diseño sin título (32).png',
+                'web/tacosbillar/completos/Diseño sin título (33).png',
                 'web/tacosbillar/vanqs/Diseño sin título (1).png',
                 'web/tacosbillar/vanqs/Diseño sin título (2).png',
                 'web/tacosbillar/vanqs/Diseño sin título (3).png',
@@ -448,7 +489,6 @@ const productData = {
                 'web/tacosbillar/vanqs/Diseño sin título (6).png',
                 'web/tacosbillar/vanqs/Diseño sin título (7).png',
                 'web/tacosbillar/vanqs/Diseño sin título.png',
-                'web/accesorios/estuches/vanq/Diseño sin título.png',
                 'web/accesorios/extensiones/num5/Diseño sin título.png',
 
 
@@ -464,6 +504,8 @@ const productData = {
             description: 'TACO VANQS CUERO\nDISEÑO VANQS CUERO\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM \nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/vanqscuero/Diseño sin título (1).png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (28).png',
+                'web/tacosbillar/completos/Diseño sin título (29).png',
                 'web/tacosbillar/vanqscuero/Diseño sin título (1).png',
                 'web/tacosbillar/vanqscuero/Diseño sin título (2).png',
                 'web/tacosbillar/vanqscuero/Diseño sin título (4).png',
@@ -483,6 +525,10 @@ const productData = {
             description: 'TACO VANQ DOBLE FLECHA\nDISEÑO VANQ DOBLE FLECHA\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/vanqsdobleflecha/Diseño sin título.png',
             images: [
+                'web/tacosbillar/completos/Diseño sin título (23).png',
+                'web/tacosbillar/completos/Diseño sin título (24).png',
+                'web/tacosbillar/completos/Diseño sin título (25).png',
+                'web/tacosbillar/completos/Diseño sin título (27).png',
                 'web/tacosbillar/vanqsdobleflecha/Diseño sin título (1).png',
                 'web/tacosbillar/vanqsdobleflecha/Diseño sin título (2).png',
                 'web/tacosbillar/vanqsdobleflecha/Diseño sin título (3).png',
