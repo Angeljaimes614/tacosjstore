@@ -344,7 +344,7 @@ const productData = {
             name: 'TACO TIGER',
             price: 350000,
             originalPrice: 600000,
-            description: 'TACO TIGER PROFESIONAL\nDISEÑO TIGER EXCLUSIVO\nFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            description: 'TACO TIGER PROFESIONAL\nDISEÑO TIGER EXCLUSIVO\nMAPLE CANADIENSE PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/tiger/diseno_sin_titulo.png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (10).png',
@@ -477,7 +477,7 @@ const productData = {
             name:'VANQ LISO',
             price:600000,
             originalPrice:800000,
-            description: 'TACO VANQ LISO\nDISEÑO VANQ LISO\nRECUBRIMIENTO DEnFIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            description: 'TACO VANQ LISO\nDISEÑO VANQ LISO\ DE FIBRA DE CARBONO PREMIUM\nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image:'web/tacosbillar/vanqs/Diseño sin título (1).png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (30).png',
@@ -504,7 +504,7 @@ const productData = {
             name: 'VANQS AGARRE DECUERO',
             price: 650000,
             originalPrice: 850000,
-            description: 'TACO VANQS CUERO\nDISEÑO VANQS CUERO\nRECUBRIMIENTO FIBRA DE CARBONO PREMIUM \nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
+            description: 'TACO VANQS CUERO\nDISEÑO VANQS CUERO\nFIBRA DE CARBONO PREMIUM \nFLECHA DE ALTA PRECISIÓN\nPARA JUGADORES EXIGENTES',
             image: 'web/tacosbillar/vanqscuero/Diseño sin título (1).png',
             images: [
                 'web/tacosbillar/completos/Diseño sin título (28).png',
