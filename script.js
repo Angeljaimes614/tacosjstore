@@ -399,7 +399,7 @@ const productData = {
             category:'tacos'
         },
 
-        'MCDERMOTTAA':{
+        'MCDERMOTTA':{
             name:'MCDERMOTT AA',
             price:650000,
             originalPrice:900000,
