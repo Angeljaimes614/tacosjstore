@@ -1260,7 +1260,7 @@ function openImageFullscreen(imageSrc) {
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 3000;
+        z-index: 2500;
         cursor: pointer;
     `;
     
@@ -1271,7 +1271,11 @@ function openImageFullscreen(imageSrc) {
         max-height: 90%;
         object-fit: contain;
         border-radius: 8px;
+        cursor: default;
     `;
+    
+    // Prevenir que el clic en la imagen cierre el modal
+    img.onclick = (e) => e.stopPropagation();
     
     fullscreenDiv.appendChild(img);
     fullscreenDiv.onclick = () => document.body.removeChild(fullscreenDiv);
