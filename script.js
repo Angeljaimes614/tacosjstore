@@ -1045,7 +1045,7 @@ function updateCartUI() {
                     <div class="cart-item-subtotal">Subtotal: $${formatPrice(item.price * item.quantity)}</div>
                 </div>
                 <div class="cart-item-actions">
-                    <button class="cart-item-remove" onclick="removeFromCart('${item.id}')" title="Eliminar producto" style="background: red; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; z-index: 1000; position: relative; pointer-events: auto;">
+                    <button class="cart-item-remove" onclick="removeFromCart('${item.id}')" title="Eliminar producto" style="background: white; color: black; padding: 10px; border: 1px solid black; border-radius: 5px; cursor: pointer; z-index: 1000; position: relative; pointer-events: auto;">
                         🗑️ Eliminar
                     </button>
                 </div>
@@ -1159,7 +1159,7 @@ function showNotification(message) {
         top: 100px;
         right: 20px;
         background: #2ed573;
-        color: white;
+        color: black;
         padding: 15px 20px;
         border-radius: 8px;
         z-index: 3000;
@@ -1204,7 +1204,7 @@ function createFloatingParticles() {
             position: absolute;
             width: ${Math.random() * 6 + 2}px;
             height: ${Math.random() * 6 + 2}px;
-            background: linear-gradient(45deg, rgba(26, 71, 42, 0.3), rgba(255, 107, 53, 0.3));
+            background: white;
             border-radius: 50%;
             left: ${Math.random() * 100}%;
             top: ${Math.random() * 100}%;
@@ -1590,7 +1590,7 @@ function showNotification(message, type = 'success') {
         top: 100px;
         right: 20px;
         background: ${bgColor};
-        color: white;
+        color: black;
         padding: 15px 20px;
         border-radius: 12px;
         z-index: 3000;
@@ -1696,8 +1696,8 @@ style.textContent = `
         position: absolute;
         top: 10px;
         right: 10px;
-        background: linear-gradient(45deg, #ff4757, #ff6b35);
-        color: white;
+        background: white;
+                color: black;
         padding: 5px 10px;
         border-radius: 15px;
         font-size: 0.8rem;
@@ -1730,7 +1730,7 @@ style.textContent = `
     }
     
     .gallery-thumb:hover {
-        border-color: #1a472a;
+        border-color: black;
         transform: scale(1.1);
     }
     
@@ -1740,14 +1740,14 @@ style.textContent = `
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(26, 71, 42, 0.9);
+        background: white;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         opacity: 0;
         transition: opacity 0.3s ease;
-        color: white;
+        color: black;
         font-size: 0.9rem;
     }
     
