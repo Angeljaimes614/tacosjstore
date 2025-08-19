@@ -1215,6 +1215,25 @@ body {
     100% { background-position: calc(200px + 100%) 0; }
 }
 
+/* Lazy loading styles */
+.lazy-image {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200px 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+.lazy-image.loaded {
+    opacity: 1;
+    background: none;
+    animation: none;
+}
+
+.lazy-image[src] {
+    opacity: 1;
+}
+
 @keyframes bounceIn {
     0% {
         opacity: 0;

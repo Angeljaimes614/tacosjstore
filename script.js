@@ -656,11 +656,13 @@ const productData = {
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
     loadProducts();
+    preloadCriticalImages();
     setupEventListeners();
     loadCart();
     createFloatingParticles();
     setupScrollAnimations();
     addLoadingEffects();
+    setupLazyLoading();
     setupParallaxEffect();
     addInteractiveEffects();
     setupContactForm();
@@ -698,6 +700,11 @@ function displayProducts(productsToShow) {
         const productCard = createProductCard(product);
         productsGrid.appendChild(productCard);
     });
+    
+    // Setup lazy loading for new images
+    setTimeout(() => {
+        setupLazyLoading();
+    }, 100);
 }
 
 // Create product card element
@@ -743,7 +750,7 @@ function createProductCard(product) {
     
     card.innerHTML = `
         <div class="product-image">
-            <img src="${product.image}" alt="${product.name}" onerror="this.src='logo-banner/Jstore.png'">
+            <img data-src="${product.image}" alt="${product.name}" loading="lazy" class="lazy-image" onerror="this.src='logo-banner/Jstore.png'">
             ${discount > 0 ? `<div class="discount-badge">-${discount}%</div>` : ''}
             <div class="product-overlay">
                 <i class="fas fa-eye"></i>
@@ -1258,6 +1265,68 @@ function addLoadingEffects() {
     });
 }
 
+// Preload critical product images (first few products)
+function preloadCriticalImages() {
+    const criticalImages = products.slice(0, 6).map(product => product.image);
+    
+    criticalImages.forEach(imageSrc => {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = imageSrc;
+        document.head.appendChild(link);
+    });
+}
+
+// Lazy loading implementation
+function setupLazyLoading() {
+    const lazyImages = document.querySelectorAll('.lazy-image');
+    
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    
+                    // Add shimmer effect while loading
+                    img.style.background = 'linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%)';
+                    img.style.backgroundSize = '200px 100%';
+                    img.style.animation = 'shimmer 1.5s infinite';
+                    
+                    // Load the image
+                    img.src = img.dataset.src;
+                    
+                    img.onload = () => {
+                        img.style.background = 'none';
+                        img.style.animation = 'none';
+                        img.classList.add('loaded');
+                    };
+                    
+                    img.onerror = () => {
+                        img.src = 'logo-banner/Jstore.png';
+                        img.style.background = 'none';
+                        img.style.animation = 'none';
+                    };
+                    
+                    observer.unobserve(img);
+                }
+            });
+        }, {
+            rootMargin: '50px 0px',
+            threshold: 0.01
+        });
+        
+        lazyImages.forEach(img => {
+            imageObserver.observe(img);
+        });
+    } else {
+        // Fallback for browsers without IntersectionObserver
+        lazyImages.forEach(img => {
+            img.src = img.dataset.src;
+        });
+    }
+}
+
 // Setup parallax effect
 function setupParallaxEffect() {
     let ticking = false;
@@ -1374,7 +1443,7 @@ function createProductCard(product) {
     
     card.innerHTML = `
         <div class="product-image">
-            <img src="${product.image}" alt="${product.name}" onerror="this.src='logo-banner/Jstore.png'">
+            <img data-src="${product.image}" alt="${product.name}" loading="lazy" class="lazy-image" onerror="this.src='logo-banner/Jstore.png'">
             ${discount > 0 ? `<div class="discount-badge">-${discount}%</div>` : ''}
             <div class="product-overlay">
                 <i class="fas fa-eye"></i>
@@ -1482,6 +1551,11 @@ function openProductModal(product) {
     // Add keyboard navigation
     document.addEventListener('keydown', handleGalleryKeyboard);
     
+    // Preload first few images for faster gallery navigation
+    if (currentProductImages.length > 1) {
+        preloadAdjacentImages();
+    }
+    
     modal.style.display = 'block';
     document.body.style.overflow = 'hidden'; // Prevent background scrolling
 }
@@ -1498,6 +1572,29 @@ function navigateGallery(direction) {
     }
     
     updateGalleryDisplay();
+    
+    // Preload adjacent images for faster navigation
+    preloadAdjacentImages();
+}
+
+// Preload adjacent images in modal gallery
+function preloadAdjacentImages() {
+    const preloadIndexes = [];
+    
+    // Previous image
+    const prevIndex = currentImageIndex === 0 ? currentProductImages.length - 1 : currentImageIndex - 1;
+    preloadIndexes.push(prevIndex);
+    
+    // Next image
+    const nextIndex = currentImageIndex === currentProductImages.length - 1 ? 0 : currentImageIndex + 1;
+    preloadIndexes.push(nextIndex);
+    
+    preloadIndexes.forEach(index => {
+        if (index !== currentImageIndex) {
+            const img = new Image();
+            img.src = currentProductImages[index];
+        }
+    });
 }
 
 function goToImage(index) {
