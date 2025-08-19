@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J Store - Tacos de Billar Profesionales</title>
-    
-    <!-- Preload critical images -->
-    <link rel="preload" href="logo-banner/1.png" as="image" type="image/png">
-    
+    <title>JStore - Tacos de Billar Premium</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -16,209 +13,258 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <img src="logo-banner/1.png" alt="J Store Logo" class="logo-img">
-                <h1>J Store</h1>
+                <img src="logo-banner/1.png" alt="JStore Logo" class="logo-img">
+                <h1>JStore</h1>
             </div>
             <nav class="nav">
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    
-                    <li><a href="#contacto">Contacto</a></li>
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#productos">Productos</a></li>
                 </ul>
+                <a href="https://wa.me/573142673051" class="order-btn" target="_blank">
+                    <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                    </svg>
+                    Ordenar
+                </a>
             </nav>
-            <div class="cart-icon" onclick="toggleCart()">
-                <i class="fas fa-shopping-cart"></i>
-                <span class="cart-count" id="cartCount">0</span>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </header>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+            <li><a href="#productos">Productos</a></li>
+        </ul>
+    </div>
+
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h2>Tacos de Billar Profesionales</h2>
-            <p>Encuentra los mejores tacos y accesorios para tu juego</p>
-            <button class="cta-button" onclick="scrollToProducts()">Ver Productos</button>
+            <h1 class="hero-title">Tacos de Billar<br>Profesionales<br>de Elite</h1>
+            <p class="hero-subtitle">Experimenta la precisión perfecta con nuestra colección exclusiva de tacos de billar premium. Diseñados para jugadores exigentes que buscan la excelencia en cada jugada. Calidad superior garantizada.</p>
+            <button class="hero-btn" onclick="document.getElementById('productos').scrollIntoView({behavior: 'smooth'})">Explorar Productos</button>
         </div>
     </section>
 
-    <!-- Search and Filter Section -->
-    <section class="search-filter">
+    <!-- Sección de ofertas especiales -->
+    <section class="ofertas-especiales" id="ofertas">
         <div class="container">
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Buscar productos...">
-                <i class="fas fa-search"></i>
-            </div>
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-category="all">Todos</button>
-                <button class="filter-btn" data-category="tacos">Tacos</button>
-                <button class="filter-btn" data-category="accesorios">Accesorios</button>
+            <h2>Ofertas Especiales</h2>
+            <div class="ofertas-grid">
+                <div class="oferta-card destacada">
+                    <div class="oferta-content">
+                        <h3>Combo Completo Predator</h3>
+                        <p>Taco Predator + Estuche + Accesorios</p>
+                        <div class="precio-oferta">
+                            <span class="precio-anterior">$850.000</span>
+                            <span class="precio-actual">$650.000</span>
+                        </div>
+                        <div class="descuento">23% OFF</div>
+                        <button class="btn-oferta" onclick="contactWhatsApp('Combo Completo Predator - Oferta Especial')">Ver Oferta</button>
+                    </div>
+                </div>
+                <div class="oferta-card">
+                    <div class="oferta-content">
+                        <h3>Pack de Accesorios</h3>
+                        <p>Tiza + Guante + Porta-tiza</p>
+                        <div class="precio-oferta">
+                            <span class="precio-anterior">$45.000</span>
+                            <span class="precio-actual">$35.000</span>
+                        </div>
+                        <div class="descuento">22% OFF</div>
+                        <button class="btn-oferta" onclick="contactWhatsApp('Pack de Accesorios - Oferta Especial')">Ver Oferta</button>
+                    </div>
+                </div>
+                <div class="oferta-card">
+                    <div class="oferta-content">
+                        <h3>Tacos McDermott</h3>
+                        <p>Modelos seleccionados</p>
+                        <div class="precio-oferta">
+                            <span class="precio-anterior">$450.000</span>
+                            <span class="precio-actual">$350.000</span>
+                        </div>
+                        <div class="descuento">22% OFF</div>
+                        <button class="btn-oferta" onclick="contactWhatsApp('Tacos McDermott - Oferta Especial')">Ver Oferta</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Products Section -->
-    <section id="products" class="products">
+    <section class="products" id="productos">
         <div class="container">
-            <h2>Nuestros Productos</h2>
-            <div class="products-grid" id="productsGrid">
-                <!-- Products will be loaded dynamically -->
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Productos</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="tacos">Tacos</button>
+                <button class="filter-btn" data-category="accesorios">Accesorios</button>
+            </div>
+            <div class="products-grid" id="productos-grid">
+                <!-- Los productos se cargarán dinámicamente con JavaScript -->
             </div>
         </div>
     </section>
 
-    <!-- Product Modal -->
-    <div id="productModal" class="modal">
+    <!-- Floating Cart -->
+    <div class="floating-cart" onclick="showCart()">
+        <span class="cart-badge" id="cartBadge">0</span>
+        <svg class="cart-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.41c-.15.28-.25.61-.25.97 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12L8.1 13h7.45c.75 0 1.42-.41 1.75-1.03L21.7 4H5.21l-.94-2H1zm16 16c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+        </svg>
+    </div>
+    <!-- Modal del carrito -->
+    <div id="cartModal" class="cart-modal">
         <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <div class="modal-body">
-                <div class="modal-image">
-                    <img id="modalImage" src="" alt="">
-                </div>
-                <div class="modal-info">
-                    <h3 id="modalTitle"></h3>
-                    <p id="modalDescription"></p>
-                    <div class="modal-price">
-                        <span class="current-price" id="modalPrice"></span>
-                        <span class="original-price" id="modalOriginalPrice"></span>
-                    </div>
-                    <div class="modal-actions">
-                        <button class="add-to-cart-btn" onclick="addToCartFromModal()">Agregar al Carrito</button>
-                    </div>
-                </div>
+            <div class="modal-header">
+                <h2 class="modal-title">Tu Carrito</h2>
+                <span class="close-cart-modal" onclick="closeCartModal()">&times;</span>
             </div>
-        </div>
-    </div>
-
-    <!-- Shopping Cart - Nueva Implementación -->
-    <div id="cartModal" class="modal">
-        <div class="modal-content cart-modal">
-            <div class="cart-header">
-                <h3><i class="fas fa-shopping-cart"></i> Carrito de Compras</h3>
-                <span class="close" onclick="toggleCart()">&times;</span>
+            <div class="cart-modal-body" id="cartModalBody">
+                <!-- Los items del carrito se cargarán aquí -->
             </div>
-            
-            <div class="cart-body">
-                <div id="cartItems"></div>
-            </div>
-            
-            <div class="cart-footer">
-                <div class="cart-total">
-                    <strong>Total: $<span id="cartTotal">0</span></strong>
-                </div>
+            <div class="cart-modal-footer">
+                <div class="cart-total" id="cartTotal">Total: $0</div>
                 <div class="cart-actions">
-                    <button class="clear-cart-btn" onclick="clearCart()">
-                        <i class="fas fa-trash-alt"></i> Vaciar Carrito
-                    </button>
-                    <button class="checkout-btn" onclick="checkout()">
-                        <i class="fab fa-whatsapp"></i> Finalizar Compra
-                    </button>
+                    <button class="continue-shopping-btn" onclick="closeCartModal()">Continuar Comprando</button>
+                    <button class="clear-cart-btn" onclick="clearCart()">Vaciar Carrito</button>
+                    <button class="checkout-btn" onclick="checkout()">Pedir por WhatsApp</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Contact Section -->
-    <section id="contacto" class="contact-section">
-        <div class="container">
-            <h2>Contáctanos</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-whatsapp"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>WhatsApp</h3>
-                            <p>+57 314 267 3051</p>
-                            <a href="https://wa.me/573142673051" target="_blank" class="whatsapp-btn">
-                                <i class="fab fa-whatsapp"></i> Escribir por WhatsApp
-                            </a>
+    <!-- Modal de producto -->
+    <div id="productModal" class="product-modal">
+        <div class="modal-content-product">
+            <div class="modal-header-product">
+                <span class="close-modal" onclick="closeProductModal()">&times;</span>
+            </div>
+            <div class="modal-body-product">
+                <!-- Columna izquierda: Galería de imágenes -->
+                <div class="product-gallery-section">
+                    <div class="main-image-container">
+                        <img id="mainProductImage" src="" alt="Producto" class="main-product-image">
+                        <div class="zoom-overlay" onclick="openImageFullscreen(document.getElementById('mainProductImage').src)">
+                            <i class="fas fa-search-plus"></i>
                         </div>
                     </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Teléfono</h3>
-                            <p>+57 314 267 3051</p>
-                            <a href="tel:+573142673051" class="phone-btn">
-                                <i class="fas fa-phone"></i> Llamar Ahora
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Email</h3>
-                            <p>info@jstore.com</p>
-                            <a href="mailto:info@jstore.com" class="email-btn">
-                                <i class="fas fa-envelope"></i> Enviar Email
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h3>Ubicación</h3>
-                            <p>Colombia</p>
-                            <p>Entrega a domicilio disponible</p>
-                        </div>
+                    <div class="thumbnails-container" id="productThumbnails">
+                        <!-- Las miniaturas se cargarán aquí -->
                     </div>
                 </div>
                 
-                <div class="contact-form">
-                    <h3>Envíanos un Mensaje</h3>
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+                <!-- Columna derecha: Detalles del producto -->
+                <div class="product-info-section">
+                    <div class="product-header">
+                        <h1 id="modalProductName" class="product-title">Nombre del Producto</h1>
+                        <div class="product-pricing">
+                            <span class="current-price" id="modalPrice">$0</span>
+                            <span class="original-price" id="modalOriginalPrice" style="display: none;">$0</span>
                         </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Tu Email" required>
+                    </div>
+                    
+                    <!-- Indicadores de confianza -->
+                    <div class="trust-indicators">
+                        <div class="trust-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Garantía incluida</span>
                         </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" name="phone" placeholder="Tu Teléfono">
+                        <div class="trust-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Envío seguro</span>
                         </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Tu Mensaje" rows="5" required></textarea>
+                        <div class="trust-item">
+                            <i class="fas fa-star"></i>
+                            <span>Material premium</span>
                         </div>
-                        <button type="submit" class="submit-btn">
-                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
-                        </button>
-                    </form>
+                    </div>
+                    
+                    <!-- Pestañas de información -->
+                    <div class="product-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" onclick="showTab('description')">Descripción</button>
+                            <button class="tab-btn" onclick="showTab('features')">Características</button>
+                            <button class="tab-btn" onclick="showTab('reviews')">Opiniones</button>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <div id="description-tab" class="tab-panel active">
+                                <p id="modalProductDescription" class="product-description-text">Descripción del producto</p>
+                            </div>
+                            
+                            <div id="features-tab" class="tab-panel">
+                                <ul id="modalProductFeatures" class="features-list">
+                                    <!-- Las características se cargarán aquí -->
+                                </ul>
+                            </div>
+                            
+                            <div id="reviews-tab" class="tab-panel">
+                                <div class="reviews-placeholder">
+                                    <p>Las opiniones de clientes estarán disponibles próximamente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Acciones del producto -->
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <label for="productQuantity">Cantidad:</label>
+                            <div class="quantity-controls">
+                                <button class="qty-btn" onclick="decreaseModalQuantity()">-</button>
+                                <input type="number" id="productQuantity" value="1" min="1" max="10">
+                                <button class="qty-btn" onclick="increaseModalQuantity()">+</button>
+                            </div>
+                        </div>
+                        
+                        <div class="action-buttons">
+                            <button class="btn-add-cart" id="modalAddToCart">Agregar al carrito</button>
+                            <button class="btn-whatsapp" onclick="contactWhatsApp()">Consultar por WhatsApp</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>J Store</h4>
-                    <p>Tu tienda de confianza para tacos de billar profesionales</p>
+                    <h4>JStore</h4>
+                    <p>Tacos de billar premium para jugadores exigentes. Calidad y precisión en cada jugada.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                    </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Contacto</h4>
-                    <p><i class="fab fa-whatsapp"></i> +57 314 267 3051</p>
+                    <p>WhatsApp: +57 314 267 3051</p>
+    
                 </div>
-                <div class="footer-section">
-                    <h4>Síguenos</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/573142673051" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    </div>
-                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JStore. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
